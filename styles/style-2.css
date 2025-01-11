@@ -46,15 +46,17 @@ td {
 }
 
 select {
-  padding: 10px;
+  padding: 10px 12px 10px 20px;
   background-color: #c6e4d6;
   color: black;
   border-radius: none;
   border-radius: 8px;
+  width: auto;
+  appearance: none;
 }
 
 select option {
-  background-color: black;
+  background-color: rebeccapurple;
   color: white;
 }
 
@@ -63,6 +65,8 @@ select option {
 }
 
 /*==== Feedback Section Ends ====*/
+
+
 
 /*==== News Section ====*/
 
@@ -150,7 +154,6 @@ select option {
   width: 70%;
   text-align: center;
   padding: 15px 0px;
-  border-radius: 8px;
   margin-bottom: 20px;
   border: none;
 }
@@ -220,6 +223,33 @@ select option {
 }
 
 /*==== Newsletter Section Ends====*/
+
+
+
+/* Footer */
+
+footer{
+  min-height: 100px;
+  text-align: center;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2px 0px;
+}
+
+hr{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.social-icon{
+  width: 20px;
+  margin-right: 8px;
+}
+
+
+/* Project is finished */
 
 
 

@@ -76,6 +76,11 @@ body {
   color: #006a50;
 }
 
+.sign-in-button:hover{
+  background-color: grey;
+  color: white;
+}
+
 /*==== Header Ends ====*/
 
 /*==== Hero Section ====*/
