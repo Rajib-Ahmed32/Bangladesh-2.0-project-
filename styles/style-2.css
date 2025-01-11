@@ -1,65 +1,177 @@
 /*==== Feedback Section ====*/
 
-.feedback{
-    max-width: 80%;
-    margin: 0 auto;
-    margin-bottom: 60px;
-    padding: 20px;
-    background-color: white;
-  }
+.feedback {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 12px;
+  margin-bottom: 60px;
+}
 
-   table {
-    width: 100%;
-    border: 1px solid black;
-    border-collapse: collapse;
-  }
-  
-  th {
-    border-right: 1px solid black;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  thead tr {
-    background-color: #5490f5;
-  }
-  
-  tr {
-    padding: 15px 0px;
-  }
-  
-  tbody tr {
-    border: 1px solid black;
-  }
-  
-  td {
-    border-left: 1px solid black;
-    padding: 20px;
-  }
-  
-  .select-option {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  select {
-    padding: 10px;
-    background-color:#5490f5;
-    color: black;
-    border-radius: none;
-    border-radius: 8px;
-  }
+table {
+  width: 100%;
+  border: 1px solid grey;
+  border-collapse: collapse;
+}
 
-  select option{
-    background-color: black;
-    color: white;
-  }
-  
-  .feedback-title {
-    margin-bottom: 18px;
-  }
+th {
+  border-right: 1px solid black;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
 
-  /*==== Feedback Section Ends ====*/
+thead tr {
+  background-color: #c6e4d6;
+}
+
+tr {
+  padding: 15px 0px;
+}
+
+tbody tr {
+  border: 1px solid black;
+}
+
+td {
+  border-left: 1px solid black;
+  padding: 20px;
+}
+
+.select-option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+select {
+  padding: 10px;
+  background-color: #c6e4d6;
+  color: black;
+  border-radius: none;
+  border-radius: 8px;
+}
+
+select option {
+  background-color: black;
+  color: white;
+}
+
+.feedback-title {
+  margin-bottom: 18px;
+}
+
+/*==== Feedback Section Ends ====*/
+
+/*==== News Section ====*/
+
+.news-section {
+  max-width: 85%;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.news-description {
+  margin: 10px 0px 30px 0px;
+}
+
+.news-article {
+  display: flex;
+  width: 100%;
+  gap: 30px;
+  margin-bottom: 50px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+.read-button {
+  background-color: #006a50;
+  margin-top: 15px;
+}
+
+.read-button:hover {
+  background-color: #004130;
+}
+
+/*==== Donate Section ====*/
+.donate-section {
+  max-width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.donate-description {
+  margin: 12px 0px 20px 0px;
+}
+
+.donate-amounts {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.news-date{
+  margin-bottom: 5px;
+}
+
+.donate-amount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 500px;
+  border-radius: 8px;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: white;
+}
+
+.donate-amount:hover{
+  background-color: #b36c6c;
+}
+
+.donate-amounts > :nth-child(2){
+  background-color: #c6e4d6;
+}
+
+.donate-amounts > :nth-child(2):hover{
+  background-color: #b36c6c;
+}
+
+.custom-amount-input {
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+  text-align: center;
+  padding: 15px 0px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  border: none;
+}
+
+.donate-button {
+  padding: 11px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  background-color: #006a50;
+}
+
+.donate-button:hover{
+  background-color: #004130;
+}
+
+/*==== Donate Section Ends ====*/
+
+
+
+/*==== Newsletter Section ====*/
 
