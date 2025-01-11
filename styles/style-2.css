@@ -1,0 +1,65 @@
+/*==== Feedback Section ====*/
+
+.feedback{
+    max-width: 80%;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    padding: 20px;
+    background-color: white;
+  }
+
+   table {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  
+  th {
+    border-right: 1px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  thead tr {
+    background-color: #5490f5;
+  }
+  
+  tr {
+    padding: 15px 0px;
+  }
+  
+  tbody tr {
+    border: 1px solid black;
+  }
+  
+  td {
+    border-left: 1px solid black;
+    padding: 20px;
+  }
+  
+  .select-option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  select {
+    padding: 10px;
+    background-color:#5490f5;
+    color: black;
+    border-radius: none;
+    border-radius: 8px;
+  }
+
+  select option{
+    background-color: black;
+    color: white;
+  }
+  
+  .feedback-title {
+    margin-bottom: 18px;
+  }
+
+  /*==== Feedback Section Ends ====*/
+
